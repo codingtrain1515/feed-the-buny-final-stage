@@ -145,10 +145,7 @@ function draw()
   if(fruit!=null){
     image(food,fruit.position.x,fruit.position.y,70,70);
   }
-  if(isMobile&& touches.length>0){
-touches=[];
-drop()
-  }
+ 
 
   pop();
 
